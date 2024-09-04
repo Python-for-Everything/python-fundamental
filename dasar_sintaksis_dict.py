@@ -27,3 +27,15 @@ print(users["address"]["zipcode"])
 print(users["address"]["geo"])
 print(users["address"]["geo"]["lat"])
 print(users["address"]["geo"]["lng"])
+
+print(users)
+print(type(users))
+print('\nChange Dic to Json')
+import json
+result = json.dumps(users)
+print(type(result))
+print(result)
+
+with open('result.json', 'w') as file:
+    json.dump(users, file)
+
