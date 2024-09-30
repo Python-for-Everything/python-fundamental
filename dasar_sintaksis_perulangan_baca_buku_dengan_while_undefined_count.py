@@ -8,6 +8,7 @@ read_count = 0
 understood_count = 0
 print(f'Jumlah buku yang sudah dibaca dan dipahami {understood_count}')
 
+# with while
 while read_count < book_count * 2:
     read_count = read_count + 1
     if understood_count == 9:
