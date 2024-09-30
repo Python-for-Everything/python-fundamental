@@ -2,7 +2,7 @@
 Program perulangan membaca buku dengan while
 """
 jumlah_buku = 10
-print('Ibu berkata, "Baca semua bukumu')
+print('Ibu berkata, Baca semua bukumu')
 total_jumlah_baca : 10
 
 jumlah_buku_yang_sudah_dibaca_dan_dipahami = 0

@@ -1,7 +1,7 @@
 """
 Program Perulangan Membaca Buku dengan While sampai Paham
 """
-book_count = 10
+book_count = 10 # 10.5 --> bilangan asli
 print('Ibu berkata, "Baca semua bukumu"')
 read_count = 0
 
